@@ -28,7 +28,7 @@ app.get(['/topic', '/topic/:id'],(req,res)=>{
           console.log(err);
           res.status(500).send("Internal Server Error");
         }
-        res.render('view', {title:id, topics:files, desc:data})
+        res.render('view', {title:id, topics:files, desc:data});
       });
     } else {
       res.render('view', {topics:files});
