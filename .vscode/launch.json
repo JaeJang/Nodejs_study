@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "nodemon",
+            "runtimeExecutable": "nodemon",
+            "program": "${workspaceFolder}/app_passport_file_face.js",
+            "restart": true,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "프로그램 시작",
+            "program": "C:\\Users\\jaeja\\Desktop\\Nodejs_study\\express\\passport\\app_passport_file_face.js"
+        }
+    ]
+}C:\Users\jaeja\Desktop\Nodejs_study\express\passport\app_passport_file_face.js
